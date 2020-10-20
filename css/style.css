@@ -1,0 +1,120 @@
+#welcome{
+    color: white;
+    background-color: black;
+    margin-top: 1px;
+    width: 10%;
+    float: inherit;
+    display: inline;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    margin: 0 auto;    
+}
+
+#menu{
+    background-color: black;
+    overflow: visible;
+    margin: 1px;
+    padding-bottom: 2%;
+    border-top:turquoise 1px dotted;
+    border-bottom:turquoise 2px dotted;    
+    
+
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 4%;
+    font-family: serif;
+    margin-right: 8%;
+}
+
+#logo{
+    padding: 1px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    overflow: visible;
+    height: 500px;
+    width: 500px;
+    
+}
+
+.categorias{
+    float: left;
+    font-size: small;
+    width: 15%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.categorias h4{
+    color: gray;
+    background-color: rgb(224, 224, 224);
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 75%;
+    font-size: small;
+
+}
+
+.produtos{
+    width: 78%;
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+}
+.box_produto{
+    margin: 8px;
+    width: 8px;
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+}
+
+
+
+.preco{
+    color: red;
+}
+
+
+
+/*.categorias{
+    width: 20%;
+    height:100px;
+    float: left;
+    border: solid purple; 
+    position:relative;
+    height: 90%;
+}*/
+
+
+#rodape{
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 10%;
+}
+
+
+#rodape p{
+    font-size: small ;
+    text-align: center;
+}
+    
+
+#copy{
+    font-size: small ;
+    text-align: center;
+    margin-bottom: auto;
+
+}
+
+
+
