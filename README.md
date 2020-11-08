@@ -1,4 +1,6 @@
-# fullStackEletro
+# Full Stack Eletro
+
+
 ## Loja virtual de eletrodomésticos fictícia criada para aprendizado e acompanhamento das aulas do curso fullstack-RecodePro.
 
 1.Foi realizada a criação das páginas com html.
