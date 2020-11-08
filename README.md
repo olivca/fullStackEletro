@@ -1,5 +1,4 @@
-# Full Stack Eletro
-
+![logo](https://user-images.githubusercontent.com/70037354/98483513-bef7b980-21e7-11eb-9ab1-44135a9e8a5a.png)
 
 ## Loja virtual de eletrodomésticos fictícia criada para aprendizado e acompanhamento das aulas do curso fullstack-RecodePro.
 
