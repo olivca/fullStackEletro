@@ -8,12 +8,12 @@
 
 </head>
 <body>
-    <nav id="menu">
-        <a href="index.html" id="logo"><img src="imagens/logo.png" width="150px" height="60px"></a>
-        <a href="produtos.html">Nossos produtos</a>
-        <a href="loja.html">Nossas lojas</a>    
-        <a href="contato.html">Fale conosco</a>    
-    </nav>
+<?php 
+    include_once "./includes/cabecalho.php";
+    
+    include_once "./includes/menu.php";
+    ?> 
+    
     
     <main>
     <h2>Nossas Lojas</h2>
@@ -48,7 +48,9 @@
     <br><br>
 
     <footer> 
-        <p id="copy">&copy; Recode Pro</p>
+    <?php
+        include_once "./includes/rodape.php";
+    ?>
     </footer>
 
 </body>

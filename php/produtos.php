@@ -2,7 +2,7 @@
     include_once "./includes/cabecalho.php";
     
     include_once "./includes/menu.php";
-    ?>
+?>
     
     <section class="categorias">
             <ul>
@@ -27,10 +27,9 @@
     ?> 
 
         <div class="box_produto" id="geladeira" style="display:block;">
-        <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?>">
+        <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?> ">
             <figcaption class="legenda">
             <p><?php echo $row['descricao']; ?></p>
-            <p><?php echo $row['preco']; ?></p>
             <p><?php echo $row['preco_venda']; ?></p>
 
         </div>

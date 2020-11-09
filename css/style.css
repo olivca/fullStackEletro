@@ -47,7 +47,7 @@ body{
 }
 
 .categorias{
-    float: left;
+    float:left;
     font-size: small;
     width: 15%;
     margin-top: 2%;
@@ -68,12 +68,12 @@ body{
     width: 78%;
     margin-top: 5%;
     position: relative;
-    display: inline-block;
+    display: inline;
 }
 .box_produto{
     margin: 8px;
     width: 8px;
-    display: inline-block;
+    display: inline;
     width: 29%;
     text-align: center;
 }
@@ -115,6 +115,10 @@ body{
     margin-bottom: auto;
 
 }
+
+
+
+
 
 
 
