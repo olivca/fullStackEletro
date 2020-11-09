@@ -1,4 +1,4 @@
-function exibir_categoria(categoria){
+/*function exibir_categoria(categoria){
 
     let elementos = document.getElementsByClassName('box_produto');
     console.log(elementos);
@@ -45,8 +45,6 @@ function teste3(params) {
     elementocont.style.color = 'Aquamarine';
 }
 
-/*mostra o tamanho da janela no console*/
-console.log(window.innerWidth);
-
+*/
 
 
