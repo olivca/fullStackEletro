@@ -4,7 +4,7 @@
     include_once "./includes/menu.php";
 ?>
     
-    <section class="categorias">
+    <section class="row">
             <ul>
             <h4 onclick="exibir_todos()">Produtos(12)</h4>
             <li onclick="exibir_categoria('geladeira')">Geladeiras (3)</li>
@@ -15,7 +15,7 @@
             </ul>
     </section>
     
-    <div class="produtos">
+    <div class="row">
     <?php
         require_once "./actions/db_connect.php";
 
@@ -25,7 +25,7 @@
         while($row=mysqli_fetch_assoc($resultado)){
  
     ?> 
-
+            
         <div class="box_produto" id="geladeira" style="display:block;">
         <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?> ">
             <figcaption class="legenda">
@@ -44,3 +44,4 @@
         include_once "./includes/rodape.php";
     ?>
 
+ 
