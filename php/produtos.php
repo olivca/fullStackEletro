@@ -4,7 +4,8 @@
     include_once "./includes/menu.php";
 ?>
     
-    <section class="row">
+    <section class="conteiner-fluid">
+        <div class="col-lg-2 border border-danger">
             <ul>
             <h4 onclick="exibir_todos()">Produtos(12)</h4>
             <li onclick="exibir_categoria('geladeira')">Geladeiras (3)</li>
@@ -13,32 +14,34 @@
             <li onclick="exibir_categoria('lavaroupa')">Lavadoura de roupas (2)</li>
             <li onclick="exibir_categoria('lavalouca')">Lava-ouças (2)</li>
             </ul>
-    </section>
-    
-    <div class="row">
-    <?php
-        require_once "./actions/db_connect.php";
+        </div>
+        
+        <div class="col-lg-10 border border-danger">    
+            <div class="row">
+            <?php
+            require_once "./actions/db_connect.php";
 
-        $sql = "SELECT * FROM produtos";
-        $resultado = mysqli_query($connect, $sql);
+            $sql = "SELECT * FROM produtos";
+            $resultado = mysqli_query($connect, $sql);
 
-        while($row=mysqli_fetch_assoc($resultado)){
- 
-    ?> 
+            while($row=mysqli_fetch_assoc($resultado)){
+            ?> 
             
-        <div class="box_produto" id="geladeira" style="display:block;">
-        <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?> ">
+            <div class="box_produto" id="geladeira" style="display:block;">
+            <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?> ">
             <figcaption class="legenda">
             <p><?php echo $row['descricao']; ?></p>
             <p><?php echo $row['preco_venda']; ?></p>
-
-        </div>
+            </div>
 
     <?php
         }
     ?>
-
+        </div>
+        
     </div>
+    </section>
+
     
     <?php
         include_once "./includes/rodape.php";

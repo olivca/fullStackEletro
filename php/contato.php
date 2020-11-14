@@ -17,7 +17,8 @@
     <main>
     <h2>Nossos Contatos</h2>
     <hr>
-    <table border=0 width="100%" cellpadding="20">
+    <div class="conteiner-fluid bg-light">
+    <table width="100%" cellpadding="20">
         <tr>
             <td width="50%" align="center">
                 <img width="14%" src="../imagens/email.png" width="40px"><br>
@@ -28,18 +29,20 @@
                 (11) 99999-9999
             </td>
         </tr>
-
     </table>
+    </div>
     </main>
+
+    <div class="jumbotron jumbotron-fluid">
     <form>
         <h4>Nome: </h4>
         <input type="text" style="width: 400px;">
         <h4>Mensagem: </h4>
-        <textarea style="width: 400px;"></textarea>
-        
+        <textarea style="width: 400px;"></textarea>  
         <input type="submit" value="Enviar">
-
     </form>
+    </div>
+
     <br><br>
     <br><br>
 
