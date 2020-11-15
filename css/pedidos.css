@@ -1,9 +1,0 @@
-/*Arquivo criado pois pedidos.php não estava aplicando elementos do style.css*/
-.form-pedidos{
-    margin-left: 40%;
-    margin-top: 10px;
-}
-
-.form-pedidos label{
-    display: flex;
-}

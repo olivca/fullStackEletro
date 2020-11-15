@@ -4,8 +4,7 @@
     include_once "./includes/menu.php";
 ?>
     
-    <section class="conteiner-fluid">
-        <div class="col-lg-2 border border-danger">
+    <div class="conteiner">
             <ul>
             <h4 onclick="exibir_todos()">Produtos(12)</h4>
             <li onclick="exibir_categoria('geladeira')">Geladeiras (3)</li>
@@ -14,10 +13,11 @@
             <li onclick="exibir_categoria('lavaroupa')">Lavadoura de roupas (2)</li>
             <li onclick="exibir_categoria('lavalouca')">Lava-ouças (2)</li>
             </ul>
-        </div>
-        
-        <div class="col-lg-10 border border-danger">    
-            <div class="row">
+    </div>    
+    
+    <div class="conteiner">
+
+        <div class="row">
             <?php
             require_once "./actions/db_connect.php";
 
@@ -32,16 +32,12 @@
             <figcaption class="legenda">
             <p><?php echo $row['descricao']; ?></p>
             <p><?php echo $row['preco_venda']; ?></p>
-            </div>
+        </div>
 
     <?php
         }
     ?>
-        </div>
-        
     </div>
-    </section>
-
     
     <?php
         include_once "./includes/rodape.php";
