@@ -5,8 +5,8 @@
 ?>
 
 <div class="conteiner" action="./actions/pedidos.php" method="POST">
-    <div class="row">
-        <div class="col-4 mx-auto pt-4 bg-light">
+    <div class="col-lg-10">
+        <div class="col-6 mx-auto pt-5 bg-light">
 
         <div class="form-group col-4 mx-auto pt-4 "> 
             <label for="nome">Nome</label>
@@ -42,7 +42,6 @@
             <label for="vTotal">Valor Total</label>
             <input type="text" name="vTotal" id="vTo    tal">
 
-        </div class>
             <button type="submit" class="btn btn-primary" name="cadastro">Cadatrar</button>
         </div>
        

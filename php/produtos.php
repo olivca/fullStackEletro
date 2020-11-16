@@ -3,8 +3,11 @@
     
     include_once "./includes/menu.php";
 ?>
-    
+      
     <div class="conteiner">
+        <div class="row"> 
+
+            <div class="col-md-4">
             <ul>
             <h4 onclick="exibir_todos()">Produtos(12)</h4>
             <li onclick="exibir_categoria('geladeira')">Geladeiras (3)</li>
@@ -13,13 +16,12 @@
             <li onclick="exibir_categoria('lavaroupa')">Lavadoura de roupas (2)</li>
             <li onclick="exibir_categoria('lavalouca')">Lava-ouças (2)</li>
             </ul>
-    </div>    
-    
-    <div class="conteiner">
+            </div>    
 
-        <div class="row">
+            <div class="row">
+            <div class="col-md-3 text-center">
             <?php
-            require_once "./actions/db_connect.php";
+            require_once "./actions/db_connect.php" ;
 
             $sql = "SELECT * FROM produtos";
             $resultado = mysqli_query($connect, $sql);
@@ -32,11 +34,13 @@
             <figcaption class="legenda">
             <p><?php echo $row['descricao']; ?></p>
             <p><?php echo $row['preco_venda']; ?></p>
-        </div>
-
     <?php
         }
     ?>
+            </div>
+            </div>   
+
+        </div>
     </div>
     
     <?php
