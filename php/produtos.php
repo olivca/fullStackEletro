@@ -4,7 +4,7 @@
     include_once "./includes/menu.php";
 ?>
       
-    <div class="conteiner">
+    <div class="conteiner-fluid">
         <div class="row"> 
 
             <div class="col-md-4">
@@ -18,8 +18,6 @@
             </ul>
             </div>    
 
-            <div class="row">
-            <div class="col-md-3 text-center">
             <?php
             require_once "./actions/db_connect.php" ;
 
@@ -29,19 +27,24 @@
             while($row=mysqli_fetch_assoc($resultado)){
             ?> 
             
-            <div class="box_produto" id="geladeira" style="display:block;">
+            <div class="row text-center">
+            <div class="col md-4 p-5">      
+            <div class="box_produto" id="geladeira" style="display:block-inline;">
             <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?> ">
             <figcaption class="legenda">
             <p><?php echo $row['descricao']; ?></p>
             <p><?php echo $row['preco_venda']; ?></p>
-    <?php
-        }
-    ?>
+            <hr>
+            </div>  
+            </div>  
             </div>
-            </div>   
+
+    <?php
+        }   
+    ?>
 
         </div>
-    </div>
+        </div>
     
     <?php
         include_once "./includes/rodape.php";
