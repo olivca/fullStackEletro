@@ -11,5 +11,5 @@ _Inicialmente utilizamos somente html, com tags próprias como tables, listas...
 
 4. Desenvolvimento backend do projeto, com a criação do banco de dados e conexão do mesmo com a linguagem PHP.
 
-5.Adição da responsividade do projeto facilitada pelo framework: BootstrapCDN:
+5.Adição da responsividade nas páginas facilitada pelo framework: BootstrapCDN:
 https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
