@@ -9,6 +9,7 @@ _Inicialmente utilizamos somente html, com tags próprias como tables, listas...
 
 3.Inclusão de eventos javascript nos produtos e nos links do menu.
 
-**4. Desenvolvimento backend do projeto, com a criação do banco de dados e conexão do mesmo com a linguagem PHP.**
+4. Desenvolvimento backend do projeto, com a criação do banco de dados e conexão do mesmo com a linguagem PHP.
 
-5.Adição da responsividade do projeto facilitada pelo framework bootstrap. Utilizei o BootstrapCDN.
+5.Adição da responsividade do projeto facilitada pelo framework: BootstrapCDN:
+https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
