@@ -3,7 +3,7 @@
     
     include_once "./includes/menu.php";
 ?>
-
+<div class="jumbotron jumbotron-fluid">
 <div class="conteiner" action="./actions/pedidos.php" method="POST">
     <div class="col-lg-10">
         <div class="col-6 mx-auto pt-5 bg-light">
@@ -42,10 +42,11 @@
             <label for="vTotal">Valor Total</label>
             <input type="text" name="vTotal" id="vTo    tal">
 
-            <button type="submit" class="btn btn-primary" name="cadastro">Cadatrar</button>
+            <button type="submit" class="btn btn-primary  m-4" name="cadastro">Cadatrar</button>
         </div>
        
     </div>
+</div>
 </div>
 
 <?php

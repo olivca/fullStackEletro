@@ -27,7 +27,7 @@
             while($row=mysqli_fetch_assoc($resultado)){
             ?> 
             
-            <div class="row text-center">
+            <div class="row text-center p-5">
             <div class="col md-3 p-5">      
             <div class="box_produto" id="geladeira" style="display:block-inline;">
             <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?>" width="120px" class='img'  onmouseover="destaque(this);">
@@ -46,7 +46,6 @@
         </div>
         </div>
 
-    <script src="../js/funcoes.js></script>
     <?php
         include_once "./includes/rodape.php";
     ?>

@@ -31,41 +31,9 @@ function destaque(){
     if(imagem.width == 150) 
         imagem.width = 340;
     else
-        imagem.width= 150;  
+        imagem.width = 150;  
 
     }   
 
 }
-
-
-/*
-
-function destaque(){
-    let img = document.getElementById("img");
-    
-    if(img.width == 200)
-        img.width = 240;
-    else
-        img.width=200;
-}
-
-
-function teste() {
-   let elemento = document.getElementById("prod");
-   elemento.style.color = 'Aquamarine';
-
-} 
-
-function teste2() {
-    let elementoloja = document.getElementById("loj")
-    elementoloja.style.color = 'Aquamarine';
-}
-
-function teste3(params) {
-    let elementocont = document.getElementById("cont")
-    elementocont.style.color = 'Aquamarine';
-}
-
-*/
-
 

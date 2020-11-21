@@ -16,8 +16,10 @@
     
     
     <main>
-    <h2>Nossas Lojas</h2>
+        <h2>Nossas Lojas</h2>
     <hr>
+    <div class="jumbotron jumbotron-fluid">
+    <div class="row text-center p-3">
 
     <table border="0 width="100%" cellpadding="20">
         <tr>
@@ -41,8 +43,11 @@
                 <p>Vila Mariana</p>
                 <p>(21)3333-3333</P>
             </td>
-        </tr>
+        </tr>    
     </table>
+    </div>
+    </div>
+
     </main>
     <br><br>
     <br><br>
