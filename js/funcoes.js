@@ -19,15 +19,36 @@ let exibir_todos = () => {
         console.log(elementos[i].id);
         elementos[i].style = "display:block-inline";
     } 
-};
+}; */
 
-let destaque = (imagem) => {
-    console.log(imagem);
-    if(imagem.width == 240)
-        imagem.width = 120;
+
+function destaque(){
+    var img = document.getElementsByClassName('img');
+
+    for (i=0; i <= img.length; i++){
+        var imagem = img[i];
+
+    if(imagem.width == 150) 
+        imagem.width = 340;
     else
-        imagem.width=240;
-};
+        imagem.width= 150;  
+
+    }   
+
+}
+
+
+/*
+
+function destaque(){
+    let img = document.getElementById("img");
+    
+    if(img.width == 200)
+        img.width = 240;
+    else
+        img.width=200;
+}
+
 
 function teste() {
    let elemento = document.getElementById("prod");

@@ -28,9 +28,9 @@
             ?> 
             
             <div class="row text-center">
-            <div class="col md-4 p-5">      
+            <div class="col md-3 p-5">      
             <div class="box_produto" id="geladeira" style="display:block-inline;">
-            <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?> ">
+            <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?>" width="120px" class='img'  onmouseover="destaque(this);">
             <figcaption class="legenda">
             <p><?php echo $row['descricao']; ?></p>
             <p><?php echo $row['preco_venda']; ?></p>
@@ -45,7 +45,8 @@
 
         </div>
         </div>
-    
+
+    <script src="../js/funcoes.js></script>
     <?php
         include_once "./includes/rodape.php";
     ?>
