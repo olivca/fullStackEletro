@@ -1,4 +1,4 @@
-    function destaque(a){
+    function zoom(a){
         let img = document.getElementsByClassName('img');
         let imagem = [];
     
