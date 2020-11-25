@@ -23,14 +23,15 @@
 
             $sql = "SELECT * FROM produtos";
             $resultado = mysqli_query($connect, $sql);
+            $n = 0;
 
             while($row=mysqli_fetch_assoc($resultado)){
             ?> 
             
             <div class="row text-center p-5">
             <div class="col md-3 p-5">      
-            <div class="box_produto" id="geladeira" style="display:block-inline;">
-            <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?>" width="120px" class='img'  onmouseover="destaque(this);">
+            <div class="box_produto" id="<?php echo $row['categoria']?>" style="display:block-inline;">
+            <img srcset="../imagens/produtos/<?php echo $row['imagem']; ?>" width="120px" class='img'  onmouseover="zoom(<?php echo $n;?>);"  onmouseout="zoomOff(<?php echo $n;?>)">
             <figcaption class="legenda">
             <p><?php echo $row['descricao']; ?></p>
             <p><?php echo $row['preco_venda']; ?></p>
@@ -40,7 +41,8 @@
             </div>
 
     <?php
-        }   
+        $n++;
+    }   
     ?>
 
         </div>
@@ -49,5 +51,3 @@
     <?php
         include_once "./includes/rodape.php";
     ?>
-
- 
