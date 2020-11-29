@@ -22,3 +22,7 @@ Para instalar execute o comando abaixo na pasta 'www' do WAMP server:
 git clone https://github.com/olivca/fullStackEletro.git
 ```
 (obs: Não testado no XAMPP).
+
+
+Criar banco de dados MySQL na Porta 3306 com nome fseletro.
+Executar comando SQL dentro da pasta SQL.
