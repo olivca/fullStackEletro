@@ -12,3 +12,13 @@ _Inicialmente utilizamos somente html, com tags próprias como tables, listas...
 
 5. Adição da responsividade nas páginas facilitada pelo framework: BootstrapCDN:
 https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
+
+
+
+### Instalação do Projeto
+
+Para instalar execute o comando abaixo na pasta 'www' do WAMP server:
+```
+git clone https://github.com/olivca/fullStackEletro.git
+```
+(obs: Não testado no XAMPP).
